@@ -1,2 +1,19 @@
 /* PHASE 2: Thumbs */
+/* .profile-friends {
+    display: flex;
+    flex-wrap: wrap;
+} */
 
+.profile-friends > li {
+    /* grid-row-end: 3;
+    grid-column-start: 3;
+    /* width: auto;
+    height: auto;
+    max-width: 50px;
+    max-height: 50px; */
+    /* columns: 3 */
+}
+/* 
+.profile-friends > p {
+    
+} */
