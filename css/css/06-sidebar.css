@@ -1,1 +1,35 @@
 /* PHASE 0: Sidebar */
+
+.profile-picture {
+    display: block;
+    margin-top: -100px;
+    position: relative;
+    overflow: hidden;
+}
+
+.profile-info label {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.profile-info p {
+    border-bottom: 1px solid black
+}
+
+.profile-nav li {
+    border-bottom: 1px solid black;
+}
+
+.online {
+    position: absolute;
+    color: white;
+    background-color: #0c0;
+    font-size: 20px;
+    transform: rotate(320deg);
+    top: 15px;
+    left: -30px;
+    box-shadow: 2px 5px 5px green;
+    letter-spacing: 3px;
+    font-weight: 700;
+    padding: 5px 30px;
+}
